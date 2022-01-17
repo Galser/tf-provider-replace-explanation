@@ -1,6 +1,6 @@
 ## Init
 
-```
+```Terraform
 terraform init
 
 Initializing the backend...
@@ -32,7 +32,7 @@ commands will detect it and remind you to do so if necessary.
 
 # Lock file
 
-```
+```HCL
 cat .terraform.lock.hcl
 # This file is maintained automatically by "terraform init".
 # Manual edits may be lost in future updates.
@@ -76,10 +76,10 @@ provider "registry.terraform.io/hashicorp/random" {
 }
 ```
 
-NO STATE file present
+NO STATE file present yet
 
 
-```
+```Bash
  ls -la
 total 48
 drwxr-xr-x   10 andrii  staff   320 Jan 17 14:33 .
