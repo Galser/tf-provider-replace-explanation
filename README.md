@@ -255,7 +255,7 @@ resource "null_resource" "animal-echo" {
 
 ```
 
-- Running `terraform apply` **without auto-approve** producing the following output :
+- Running `terraform apply` **with and without auto-approve** producing the following output :
 
 ```Terraform
 terraform apply --auto-approve
